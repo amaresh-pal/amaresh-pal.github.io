@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaresh Pal — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <!-- Noise overlay -->
+    <div class="noise"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-logo">AP</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" id="navToggle">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="grid-lines"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-label reveal">COMPUTER APPLICATIONS STUDENT</div>
+            <h1 class="hero-title reveal">
+                <span class="line">Amaresh</span>
+                <span class="line accent">Pal</span>
+            </h1>
+            <p class="hero-sub reveal">Ravenshaw University · Cuttack, Odisha</p>
+            <div class="hero-actions reveal">
+                <a href="#about" class="btn btn-primary">Explore My Work</a>
+                <a href="mailto:amareshpal463@gmail.com" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">01 / About</span>
+                <h2 class="section-title">Who I Am</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card reveal">
+                    <div class="avatar">
+                        <i class="fas fa-user"></i>
+                        <div class="avatar-ring"></div>
+                    </div>
+                    <blockquote class="about-quote reveal">
+                        "Technology isn't just what I study — it's how I think."
+                    </blockquote>
+                </div>
+                <div class="about-text reveal">
+                    <p>I am a <strong>Bachelor of Computer Applications (BCA)</strong> student with a passion for technology and programming. Currently pursuing my degree at <em>Ravenshaw University</em>, I am eager to apply classroom knowledge to practical settings and continue building expertise in Computer Applications.</p>
+                    <p>My interests span Web Development, Mobile Apps, and Game Development — three domains where creativity meets engineering.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-num">4+</span>
+                            <span class="stat-label">Languages</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">2027</span>
+                            <span class="stat-label">Graduating</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">1</span>
+                            <span class="stat-label">Certification</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section-dark" id="education">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">02 / Education</span>
+                <h2 class="section-title">Learning Path</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 → 2027</span>
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <p class="timeline-place"><i class="fas fa-university"></i> Ravenshaw University, Cuttack</p>
+                        <p class="timeline-desc">Relevant Coursework: Introduction to Programming, Computer Fundamentals, Mathematics for Computer Applications, Communication Skills</p>
+                        <div class="timeline-tags">
+                            <span>Programming</span>
+                            <span>Mathematics</span>
+                            <span>Communication</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024</span>
+                        <h3>Secondary Education</h3>
+                        <p class="timeline-place"><i class="fas fa-school"></i> Salepur Higher Secondary School, Salepur</p>
+                        <p class="timeline-desc">Scored <strong>79.16%</strong> — a strong academic foundation leading into university education.</p>
+                        <div class="timeline-tags">
+                            <span>79.16%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">03 / Skills</span>
+                <h2 class="section-title">What I Know</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-group reveal">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar" data-level="80">
+                            <span>Python</span>
+                            <div class="bar"><div class="bar-fill"></div></div>
+                        </div>
+                        <div class="skill-bar" data-level="65">
+                            <span>Java</span>
+                            <div class="bar"><div class="bar-fill"></div></div>
+                        </div>
+                        <div class="skill-bar" data-level="70">
+                            <span>C</span>
+                            <div class="bar"><div class="bar-fill"></div></div>
+                        </div>
+                        <div class="skill-bar" data-level="75">
+                            <span>HTML / CSS</span>
+                            <div class="bar"><div class="bar-fill"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-group reveal">
+                    <h3><i class="fas fa-tools"></i> Tools & Software</h3>
+                    <div class="tool-tags">
+                        <div class="tool-tag"><i class="fas fa-laptop-code"></i> Visual Studio Code</div>
+                        <div class="tool-tag"><i class="fab fa-microsoft"></i> Microsoft Office Suite</div>
+                        <div class="tool-tag"><i class="fab fa-windows"></i> Windows OS</div>
+                    </div>
+                </div>
+
+                <div class="skill-group reveal">
+                    <h3><i class="fas fa-brain"></i> Soft Skills</h3>
+                    <div class="soft-skills">
+                        <div class="soft-skill"><span>🎯</span> Problem-solving</div>
+                        <div class="soft-skill"><span>🤝</span> Teamwork</div>
+                        <div class="soft-skill"><span>⏰</span> Time Management</div>
+                        <div class="soft-skill"><span>💬</span> Communication</div>
+                        <div class="soft-skill"><span>⌨️</span> Fast Typing</div>
+                    </div>
+                </div>
+
+                <div class="skill-group reveal">
+                    <h3><i class="fas fa-language"></i> Languages Spoken</h3>
+                    <div class="lang-list">
+                        <div class="lang-item">
+                            <span class="lang-dot"></span>
+                            <span>Odia</span>
+                            <span class="lang-level">Native</span>
+                        </div>
+                        <div class="lang-item">
+                            <span class="lang-dot"></span>
+                            <span>Hindi</span>
+                            <span class="lang-level">Fluent</span>
+                        </div>
+                        <div class="lang-item">
+                            <span class="lang-dot"></span>
+                            <span>English</span>
+                            <span class="lang-level">Proficient</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interests -->
+            <div class="interests-row reveal">
+                <h3 class="interests-title">Areas of Interest</h3>
+                <div class="interests">
+                    <div class="interest-card">
+                        <i class="fas fa-globe"></i>
+                        <span>Web Development</span>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Mobile Apps</span>
+                    </div>
+                    <div class="interest-card">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Game Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section section-dark" id="certifications">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">04 / Certifications</span>
+                <h2 class="section-title">Credentials</h2>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card reveal">
+                    <div class="cert-icon"><i class="fab fa-google"></i></div>
+                    <div class="cert-info">
+                        <h3>Introduction to Generative AI</h3>
+                        <p class="cert-provider">Google Cloud</p>
+                        <p class="cert-date"><i class="fas fa-calendar"></i> February 1, 2025</p>
+                    </div>
+                    <div class="cert-badge">Verified</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">05 / Contact</span>
+                <h2 class="section-title">Let's Connect</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-item reveal">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <p class="contact-label">Location</p>
+                        <p class="contact-value">Dularpur, Gopalpur, Mahanga, Cuttack</p>
+                    </div>
+                </div>
+                <a href="tel:8596921459" class="contact-item reveal">
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                    <div>
+                        <p class="contact-label">Phone</p>
+                        <p class="contact-value">8596921459</p>
+                    </div>
+                </a>
+                <a href="mailto:amareshpal463@gmail.com" class="contact-item reveal">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <p class="contact-label">Email</p>
+                        <p class="contact-value">amareshpal463@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/amr.esh9178/" target="_blank" class="contact-item reveal">
+                    <div class="contact-icon"><i class="fab fa-instagram"></i></div>
+                    <div>
+                        <p class="contact-label">Instagram</p>
+                        <p class="contact-value">@amr.esh9178</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/amaresh-pal-743540353" target="_blank" class="contact-item reveal">
+                    <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                    <div>
+                        <p class="contact-label">LinkedIn</p>
+                        <p class="contact-value">Amaresh Pal</p>
+                    </div>
+                </a>
+                <a href="tel:7855087103" class="contact-item reveal">
+                    <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div>
+                        <p class="contact-label">WhatsApp</p>
+                        <p class="contact-value">7855087103</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Amaresh Pal</div>
+                <p>Thank you for visiting. I'm eager to bring ideas to life through code.</p>
+                <p class="footer-credit">Designed & Built with ❤️ · 2025</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
